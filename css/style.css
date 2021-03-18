@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Podkova&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 4rem;
+  color: white;
+}
+
+h2 {
+  font-size: 3rem;
+  color: white;
+
+}
+
+body {
+  font-family: 'Podkova', serif;
+  font-size: 16px;
+}
+a {
+    text-decoration: none;
+  color: #fff;
+}
+/* header */
+.container {
+      width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.header-nav {
+  display: block;
+  text-align: right;
+  padding: 1em;
+  font-size: 2em;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(62deg, #923535 10%, #921717 80%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+/* welcome */
+
+.welcome-section{
+  font-size: 3rem;
+  font-weight: 200;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  width: auto;
+  align-items: center;
+  background-image: linear-gradient(62deg, #3a3d40 50%, #181719 100%);
+  }
+
+#welcome-p {
+  color: #923535;
+}
+
+/* <!--projects --> */
+
+.projects {
+  text-align: center;
+  padding: 10rem 2rem;
+  background: linear-gradient(62deg, #344c77 20%, #1c3769 80%);
+}
+
+.project-title {
+  border-bottom: 2px solid white;
+  max-width: 300px;
+  margin: 0 auto 6rem auto;
+}
+
+.projects-grid {
+   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  grid-gap: 4em;
+}
+
+.project-image {
+  height: calc(100% - 6.8rem);
+  width: 100%;
+  object-fit: cover;
+}
+
+/* contacts */
+
+.contact-section {
+  font-size: 3rem;
+  font-weight: 200;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  width: auto;
+  align-items: center;
+  background-image: linear-gradient(62deg, #3a3d40 50%, #181719 100%);
+  }
+
+#contact-p {
+  color: #923535;
+  font-size: 2rem;
+}
+
+/* media */
+@media (max-width: 1300px) {
+    .projects{
+        width: auto;
+    }
+}
